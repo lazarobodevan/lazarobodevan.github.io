@@ -299,7 +299,7 @@ table{
         width: "device-width";
         margin:auto;
         
-        height: 1200px;
+        height: "device-height";
        vertical-align: middle;
         background-color: #0f3c4c;
     }
@@ -327,7 +327,7 @@ table{
 
     .inner-block{
         width: 650px;
-        height: 90%;
+        height: "device-height";
         margin-top: 440px;
         margin-right: 400px;
         margin: 14px auto;
