@@ -206,7 +206,7 @@ table{
     height: 100%;
     position: absolute;
     opacity: 0;
-    
+    vertical-align: middle;   
     
 }
 
@@ -223,8 +223,7 @@ table{
     font-family: Quicksand;
     color:rgb(3, 8, 78);
     font-size: 16pt;
-    font-weight: 500;
-    
+    font-weight: 5  00;
 }
 
 .proj:hover .info{
@@ -244,3 +243,91 @@ table{
     transition: 0.8s;
 }
 
+/*------------------------------------------------*/
+/*-------------------RESPONSIVE-------------------*/
+/*------------------------------------------------*/
+
+@media only screen and (max-width: 780px){
+
+    .header{
+        width: 712px;
+        height: 90px;
+    }
+
+    .first-block{
+        padding-top: 85px;
+        padding-right: 15px;
+        padding-left: 15px;
+        width: 690px;
+        height: 1000px;
+        display: block;
+        background-color: #0f3c4c;
+    }
+    
+    .inner_header h1{
+        font-size: 16pt;
+        padding-left: 2%;
+    }
+
+    .image-cropper {
+        width: 200px;
+        height: 200px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    
+    .profile-pic {
+      display: table-inline;
+      margin: 0 auto;
+      margin-left: 0%;
+      height: 100%;
+      width: auto;
+    }
+
+    .nav{
+        padding-right: 100px;
+    }
+    .inner-block{
+        width: 650px;
+        height: 90%;
+        margin-top: 20px;
+        margin-right: 400px;
+        margin: 0 auto;
+    
+    }
+
+    .inner-block h1{
+        padding-left: 8%;
+        margin-top: -125px;
+        font-size: 18pt;
+        display: inline;
+        text-align: center;
+    
+    }
+    
+    .inner-block h1 span{
+        font-size: 16pt;
+        margin-left: 15%;
+    }
+
+    .description{
+        margin-left: 6%;
+        margin-right: 10%;
+        margin-top: 8%;
+        height: 60%;
+        vertical-align: middle;
+    }
+
+    .description p{
+        padding-inline: 20px;
+        text-indent:4em
+    
+    }
+    .description span{
+        padding-left: 5%;
+        font-size: 18pt;
+        font-weight: bold;
+    }
+}
