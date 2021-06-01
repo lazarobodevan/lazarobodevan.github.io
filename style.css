@@ -256,7 +256,7 @@ table{
         background-color: #145369;
         display: block;
         position: fixed;
-        z-index: 1 ;
+        z-index: 10 ;
     }
     
     .inner_header{
@@ -284,20 +284,20 @@ table{
     }
 
     .nav{
-        margin-right: -5%;
+        margin-right: -15%;
     }
     .nav a li{
         display: table-cell;
         vertical-align: middle;
         color: white;
-        font-weight: bold;
+        font-weight: bold;  
     }
 
     .first-block{
         padding-top: 85px;
-        padding-right: 15px;
-        padding-left: 15px;
-        width: 168%;
+        margin-right: 0%;
+        margin-left: 0%;
+        width: 120%;
         height: 1200px;
         display: block;
         background-color: #0f3c4c;
@@ -389,16 +389,16 @@ table{
         padding-left: 10px;
         text-align: left;
         color: black;
-        font-size: 12pt;
+        font-size: 14pt;
         font-family: Arial;
-        font-weight: 200;
+        font-weight: bold;
     }
     
     .info p span{
         font-family: Quicksand;
         color:rgb(3, 8, 78);
         font-size: 16pt;
-        font-weight: 5  00;
+        font-weight: bold;
     }
     
 }
@@ -524,7 +524,7 @@ table{
     }
     
     .description{
-        padding-top: 2%;
+        padding-top: 0%;
         padding-bottom: 2%;
         margin-top: 6%;
         margin-left: 8%;
