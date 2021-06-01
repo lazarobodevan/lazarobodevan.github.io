@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+table{
+    table-layout: fixed;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #145369;
+    display: block;
+    position: fixed;
+    z-index: 1 ;
+}
+
+.inner_header{
+    width: 100%;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+
+.inner_header h1{
+    color: blanchedalmond;
+    font-size: 20pt;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5%;
+    font-family: Josefin Sans;
+    font-weight: 200;
+
+}
+
+.inner_header h1 span{
+    font-weight: 800;
+
+}
+
+.nav{
+    float: right;
+    padding-right: 60px;
+    height: 100%;
+    font-family: Montserrat;
+}
+
+.nav a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding-left: 0px;
+    padding-right: 20px;
+}
+
+.nav a li{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+.nav a li:hover{
+    background-color: rgb(219, 186, 186);
+    color: black;
+    font-weight: bold;
+}
+
+.first-block{
+    padding-top: 85px;
+    width: 100%;
+    height: 565px;
+    display: block;
+    background-color: #0f3c4c;
+}
+
+.inner-block{
+    width: 1200px;
+    height: 90%;
+    margin: 0 auto;
+    display: table;
+    background-color: #ffffff;
+
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border-left: 0 solid #00ff99;
+    transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out
+}
+
+.image-cropper {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+.profile-pic {
+  display: table-inline;
+  margin: 0 auto;
+  margin-left: 0%;
+  height: 100%;
+  width: auto;
+}
+
+.inner-block h1{
+    color: black;
+    display: inline-flexbox;
+    font-size: 24pt;
+    font-family: Josefin Sans;
+    margin-top: -12%;
+    margin-left: 18%;
+
+}
+
+.inner-block h1 span{
+    font-size: 18pt;
+    font-weight: 200;
+    display: inline-flexbox;
+}
+
+
+.description{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
+    vertical-align: middle;
+
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    border-left: 0 solid #00ff99;
+    transition: border-left 1000ms ease-in-out, padding-left 300ms ease-in-out;
+    padding-left: 0.5rem;
+    border-left: 0.5rem solid #00ff99;
+}
+
+.description p{
+    font-family: Quicksand;
+    font-weight: 800;
+    padding-inline: 40px;
+    font-size: 14pt;
+    text-indent:4em
+
+}
+.description span{
+    padding-left: 5%;
+    font-size: 18pt;
+    font-weight: bold;
+}
+
+.projs{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 96%;
+    height: 90%;
+    position: static;
+}
+
+.projs table{
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 96%;
+    height: 100%;
+    position: static;
+}
+
+#parent{
+    position: relative;
+}
+
+.proj{
+    margin-left: 4%;
+    width: 100px;
+    height: 200px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.proj p{
+    font-size: 24pt;
+    font-family: Quicksand;
+    font-weight: bold;
+    text-align: center;
+    color: #12143a;
+}
+
+.title p{
+    font-family: Quicksand;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+.info{
+    top: -50px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+    
+    
+}
+
+.info p{
+    padding-left: 10px;
+    text-align: left;
+    color: black;
+    font-size: 12pt;
+    font-family: Arial;
+    font-weight: 200;
+}
+
+.info p span{
+    font-family: Quicksand;
+    color:rgb(3, 8, 78);
+    font-size: 16pt;
+    font-weight: 500;
+    
+}
+
+.proj:hover .info{
+    opacity: 1;
+    transition: 0.5s;
+    background-color: 
+}
+.proj:hover .title{
+    opacity: 0;
+    
+}
+.proj:hover{
+    background-color: rgb(129, 106, 106);
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    transition: 0.8s;
+}
+
