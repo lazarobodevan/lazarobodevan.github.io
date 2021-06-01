@@ -284,7 +284,7 @@ table{
     }
 
     .nav{
-        margin-right: 10%;
+        margin-right: 20%;
     }
     .nav a li{
         display: table-cell;
@@ -295,8 +295,8 @@ table{
 
     .first-block{
         padding-top: 85px;
-        margin-left: 0%;
-        width: 400%;
+        margin-left: 20%;
+        width: 200%;
         height: 1200px;
         display: block;
         background-color: #0f3c4c;
