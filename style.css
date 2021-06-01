@@ -12,6 +12,7 @@ table{
     table-layout: fixed;
     width: 100%;
 }
+
 .header{
     width: 100%;
     height: 80px;
@@ -26,6 +27,7 @@ table{
     height: 100%;
     display: table;
     margin: 0 auto;
+    position: relative;
 }
 
 .inner_header h1{
@@ -109,27 +111,28 @@ table{
   width: auto;
 }
 
-.inner-block h1{
+.me h1{
     color: black;
     display: inline-flexbox;
     font-size: 24pt;
     font-family: Josefin Sans;
     margin-top: -12%;
-    margin-left: 18%;
-
+    margin-left: 22%;
 }
 
-.inner-block h1 span{
+.me p{
+    font-family: Josefin Sans;
     font-size: 18pt;
     font-weight: 200;
     display: inline-flexbox;
+    text-align: center;
+    margin-left: -23%;
 }
-
 
 .description{
     padding-top: 2%;
     padding-bottom: 2%;
-    margin-top: 5%;
+    margin-top: 6%;
     margin-left: 8%;
     margin-right: 8%;
     vertical-align: middle;
@@ -173,10 +176,6 @@ table{
     position: static;
 }
 
-#parent{
-    position: relative;
-}
-
 .proj{
     margin-left: 4%;
     width: 100px;
@@ -201,16 +200,17 @@ table{
 }
 
 .info{
-    top: -50px;
+    top: 0px;
+    vertical-align: middle;
     width: 100%;
     height: 100%;
     position: absolute;
     opacity: 0;
-    vertical-align: middle;   
     
 }
 
 .info p{
+    margin-top: 10px;
     padding-left: 10px;
     text-align: left;
     color: black;
@@ -229,12 +229,12 @@ table{
 .proj:hover .info{
     opacity: 1;
     transition: 0.5s;
-    background-color: 
 }
+
 .proj:hover .title{
-    opacity: 0;
-    
+    opacity: 0;   
 }
+
 .proj:hover{
     background-color: rgb(129, 106, 106);
     box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11), 0 5px 15px 0 rgba(0,0,0,0.08);
@@ -250,28 +250,57 @@ table{
 @media only screen and (min-width: 700px){
 
     .header{
-        width: 712px;
+        width: 100%;
         height: 90px;
+        background-color: #145369;
+        display: block;
+        position: fixed;
+        z-index: 1 ;
+    }
+    
+    .inner_header{
+        width: 100%;
+        height: 100%;
+        display: table;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .inner_header h1{
+        color: blanchedalmond;
+        font-size: 24pt;
+        display: table-cell;
+        vertical-align: middle;
+        padding-left: 2%;
+        font-family: Josefin Sans;
+        font-weight: 200;
+    
+    }
+    
+    .inner_header h1 span{
+        font-weight: 800;
+    
+    }
+
+    .nav{
+        margin-right: -10%;
     }
 
     .first-block{
         padding-top: 85px;
         padding-right: 15px;
         padding-left: 15px;
-        width: 690px;
+        width: 96%;
         height: 1000px;
         display: block;
         background-color: #0f3c4c;
-    }
-    
-    .inner_header h1{
-        font-size: 16pt;
-        padding-left: 2%;
     }
 
     .image-cropper {
         width: 200px;
         height: 200px;
+        margin: 0 auto;
+        margin-top: 10px;
         position: relative;
         overflow: hidden;
         border-radius: 50%;
@@ -286,41 +315,47 @@ table{
       width: auto;
     }
 
-    .nav{
-        padding-right: 100px;
-    }
+    
+
     .inner-block{
         width: 650px;
         height: 90%;
-        margin-top: 20px;
+        margin-top: 220px;
         margin-right: 400px;
-        margin: 0 auto;
+        margin: 14px auto;
     
     }
 
-    .inner-block h1{
-        padding-left: 8%;
-        margin-top: -125px;
+    .me h1{
+        color: black;
+        display: inline-flexbox;
+        font-size: 24pt;
+        font-family: Josefin Sans;
+        margin-top: 2%;
+        margin-left: 22%;
+    }
+    
+    .me p{
+        font-family: Josefin Sans;
         font-size: 18pt;
-        display: inline;
+        font-weight: 200;
+        display: inline-flexbox;
         text-align: center;
-    
+        margin-left: 0%;
     }
     
-    .inner-block h1 span{
-        font-size: 16pt;
-        margin-left: 15%;
-    }
 
     .description{
         margin-left: 6%;
         margin-right: 10%;
         margin-top: 8%;
-        height: 60%;
+        height: 40%;
         vertical-align: middle;
+        z-index: 0;
     }
 
     .description p{
+        vertical-align: middle;
         padding-inline: 20px;
         text-indent:4em
     
@@ -330,4 +365,32 @@ table{
         font-size: 18pt;
         font-weight: bold;
     }
+
+    .info{
+        top: 10%;
+        vertical-align: middle;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        opacity: 0;
+        
+    }
+    
+    .info p{
+        margin-top: 10px;
+        padding-left: 10px;
+        text-align: left;
+        color: black;
+        font-size: 12pt;
+        font-family: Arial;
+        font-weight: 200;
+    }
+    
+    .info p span{
+        font-family: Quicksand;
+        color:rgb(3, 8, 78);
+        font-size: 16pt;
+        font-weight: 5  00;
+    }
+    
 }
