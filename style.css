@@ -247,7 +247,7 @@ table{
 /*-------------------RESPONSIVE-------------------*/
 /*------------------------------------------------*/
 
-@media only screen and (min-width: 700px){
+@media only screen and (max-width: 1000px){
 
     .header{
         width: 100%;
@@ -283,7 +283,7 @@ table{
     }
 
     .nav{
-        margin-right: -10%;
+        margin-right: 0%;
     }
 
     .first-block{
