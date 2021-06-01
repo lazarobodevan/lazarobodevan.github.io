@@ -252,7 +252,7 @@ table{
 
     .header{
         width: 100%;
-        height: 90px;
+        height: 180px;
         background-color: #145369;
         display: block;
         position: fixed;
@@ -269,7 +269,7 @@ table{
     
     .inner_header h1{
         color: blanchedalmond;
-        font-size: 150%;
+        font-size: 200%;
         display: table-cell;
         vertical-align: middle;
         padding-left: 2%;
@@ -284,13 +284,14 @@ table{
     }
 
     .nav{
-        margin-right: 20%;
+        margin-right: 0%;
     }
     .nav a li{
         display: table-cell;
         vertical-align: middle;
         color: white;
-        font-weight: bold;  
+        font-weight: bold; 
+        font-size: 14pt; 
     }
 
     .first-block{
@@ -327,7 +328,7 @@ table{
     .inner-block{
         width: 650px;
         height: 90%;
-        margin-top: 220px;
+        margin-top: 440px;
         margin-right: 400px;
         margin: 14px auto;
     
@@ -338,7 +339,7 @@ table{
         display: inline-flexbox;
         font-size: 24pt;
         font-family: Josefin Sans;
-        margin-top: 2%;
+        margin-top: 4%;
         margin-left: 22%;
     }
     
