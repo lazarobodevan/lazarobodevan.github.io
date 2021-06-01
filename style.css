@@ -295,10 +295,11 @@ table{
 
     .first-block{
         padding-top: 85px;
+       
         margin:auto;
         width: 200%;
         height: 1200px;
-        display: block;
+       vertical-align: middle;
         background-color: #0f3c4c;
     }
 
