@@ -297,7 +297,7 @@ table{
         padding-top: 85px;
         margin-right: 0%;
         margin-left: 0%;
-        width: 120%;
+        width: 200%;
         height: 1200px;
         display: block;
         background-color: #0f3c4c;
@@ -389,7 +389,7 @@ table{
         padding-left: 10px;
         text-align: left;
         color: black;
-        font-size: 14pt;
+        font-size: 18pt;
         font-family: Arial;
         font-weight: bold;
     }
@@ -397,7 +397,7 @@ table{
     .info p span{
         font-family: Quicksand;
         color:rgb(3, 8, 78);
-        font-size: 16pt;
+        font-size: 20pt;
         font-weight: bold;
     }
     
