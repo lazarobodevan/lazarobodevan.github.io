@@ -295,7 +295,7 @@ table{
 
     .first-block{
         padding-top: 85px;
-        margin-left: 20%;
+        margin:auto;
         width: 200%;
         height: 1200px;
         display: block;
