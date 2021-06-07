@@ -32,12 +32,13 @@ table{
 }
 
 .inner_header h1{
+    width: 100%;
     color: blanchedalmond;
     font-size: 20pt;
     display: table-cell;
     vertical-align: middle;
     margin: 0 auto;
-    padding-left: 7%;
+    padding-left: 30px;
     font-family: Josefin Sans;
     font-weight: 200;
 
@@ -50,15 +51,16 @@ table{
 
 .nav{
     margin-top: 30px;
-    margin-right: 15px;
-    width: 200%;
+    margin: 30px auto;
     height: 30px;
-    float: right;
     font-family: Montserrat;
     text-align: center;
     font-size: 9pt;
     font-weight: 800;
+    position: relative;
     overflow: hidden;
+    margin-left: -420px;
+    margin-bottom: 0px;
 }
 
 .nav a{
@@ -95,10 +97,16 @@ table{
     }
     
     .nav{
+        float: right;
         margin: -18px auto;
+        margin-left: 100px;
         width: 60%;
         font-size: 14pt;
-        height: 100%;
+        height: 100%;        
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+        
     }
     
     .nav a{
@@ -145,6 +153,7 @@ table{
     border-radius: 50%;
     margin-left: calc(75% - 150px);
     margin-top: 20px;
+    margin: 10px auto;
 }
 
 
