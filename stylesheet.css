@@ -185,6 +185,10 @@ body{
         justify-content: space-between;
     }
 
+    .logo{
+        margin-left: 65px;
+    }
+
     .logo img{
         width: 44px;
     }
