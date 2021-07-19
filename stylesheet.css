@@ -247,6 +247,18 @@ body{
         font-size: 28px;
         padding-top: 60px;        
     }
+
+    .ball{
+        width: 500px; 
+        height: 500px; 
+        background-color: rgba(84,144,63,0.1); 
+        border-radius: 300px; 
+        position: absolute; 
+        margin-top: 110px;
+        margin-left: 400px;
+        overflow: hidden;
+        z-index: 1;
+    }
 }
 
 /*------- Second Page ---------*/
@@ -332,6 +344,7 @@ body{
     box-shadow: 0 12px 12px -6px black;
     border-radius: 8px;
     flex-wrap: nowrap;
+    
 }
 
 .wrap .skill{
@@ -343,6 +356,7 @@ body{
     background-color: #170725;
     border-radius: 8px;
     justify-content: center;
+
 }
 
 .skill p{
@@ -351,6 +365,7 @@ body{
     text-align: center;
     align-items: flex-end;
     font-weight: 200;
+    
 }
 
 @media only screen and (min-width: 1000px){
@@ -382,14 +397,25 @@ body{
     }
 
     .soft-skills{
+        padding-top: 50px;
         width: 100%;
-        height: 180px;    
+        height: 180px;
+        z-index: 3;
     }
 
     .wrap{  
-        width: 120px;
-        height: 120px;
+        width: 160px;
+        height: 160px;
         margin: 0 0 0 65;
+    }
+
+    .wrap .skill{
+        width: 140px;
+        height: 140px;
+    }
+
+    .skill p{
+        margin-top: 10px;
     }
 
     
@@ -420,8 +446,10 @@ body{
 }
 
 .proj{
+    display: flex;
+    flex-direction: column;
     width: 300px;
-    height: fit-content;
+    height: 400px;
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 0px 4px 13px 14px rgba(0, 0, 0, 0.24);
@@ -434,7 +462,8 @@ body{
 .proj .proj-txt{
     margin-left: 10px;
     margin-right: 10px;
-    height: fit-content;
+    margin-top: 10px;
+    height: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -450,8 +479,7 @@ body{
 
 .proj-btn{
     display: flex;
-    margin: 10px 10px 0px 10px;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .proj-btn a{
