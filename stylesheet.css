@@ -664,7 +664,7 @@ body{
 
 .footer{
     background-image: linear-gradient(rgb(38, 56, 139), rgb(15, 12, 46) );
-    height: 40vh;
+    height: fit-content;
     padding: 40px;
     display: flex;
     align-items: center;
@@ -692,6 +692,7 @@ body{
     height: 100%;
     margin-top: 60px;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .contact{
@@ -699,6 +700,7 @@ body{
     height: 20px;
     background-color: white;
     margin-right: 20px;
+    margin-bottom: 20px;
     padding: 30px;
     display: flex;
     align-items: center;
