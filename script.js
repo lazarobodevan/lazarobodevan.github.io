@@ -53,6 +53,12 @@ const projects = [
     tecnologies:["ReactJS","PostgreSQL","Docker","NodeJS","NestJS","TypeORM","Typescript"],
     github: "https://github.com/lazarobodevan/cookbook"
   },
+  {
+    name: "Feirinha",
+    desc: "Aplicativo destinado a conectar produtores locais a consumidores finais, com o objetivo de fomentar a agricultura local e alimentação mais orgânica e saudável. (em desenvolvimento)",
+    tecnologies:[".NET","Flutter","Docker"],
+    github: "https://github.com/lazarobodevan/AgroFam"
+  },
 ]
 
 window.onscroll = function() {scrollFunction()};
