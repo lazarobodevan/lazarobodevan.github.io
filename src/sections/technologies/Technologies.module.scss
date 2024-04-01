@@ -1,0 +1,32 @@
+@mixin respond-to($breakpoint) {
+    @media only screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+
+.container{
+    width: calc(100vw - 3em);
+    height: 100%;
+    padding-top: 5rem;
+
+    @include respond-to(768px) {
+        padding-top: 9rem;
+    }
+
+    h1{
+        color: var(--primary4);
+
+        @include respond-to(768px) {
+            font-size: 26px;
+        }
+    }
+
+    .projects{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+}

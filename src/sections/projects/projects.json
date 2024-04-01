@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Mabills",
+        "desc": "Aplicação Web para gerenciamento de contas pessoais (entradas e gastos). Inclui dashboards."
+    },
+    {
+        "id": 2,
+        "name": "Cookbook",
+        "desc": "Rede social de receitas, onde é possível postar, curtir, comentar e buscar receitas, além de seguir outras pessoas."
+    },
+    {
+        "id": 3,
+        "name": "GreenCart",
+        "desc": "Um aplicativo que conecta produtores rurais locais com consumidores finais, em uma espécie de feira online."
+    },
+    {
+        "id": 4,
+        "name": "Trello simplificado",
+        "desc": "Uma versão simplificada do Trello. É possível criar cards de tarefas e movê-los entre painéis de acordo com o seu status."
+    }
+]

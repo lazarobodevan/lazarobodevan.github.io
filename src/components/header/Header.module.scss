@@ -1,0 +1,98 @@
+@mixin respond-to($breakpoint) {
+    @media only screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+
+.container{
+    display: flex;    
+    align-items: center;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    width: 98%;
+    height: 4rem;
+    z-index: 100;
+    box-sizing: border-box;
+    position: fixed;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: var(--primary1);
+    scroll-behavior: smooth;
+
+    &::before{
+        content: "";
+        position: fixed;
+        width: 98%;
+        height: 4rem;
+        top: 0;
+        left: 0;
+        background-image: url(./noise.svg);
+        opacity: 10%;
+        z-index: -1;
+
+        @include respond-to(768px) {
+            height: 6rem;
+        }
+    }
+
+    &::after{
+        content: "";
+        top: 5px;
+        left: 5px;
+        position: absolute;
+        width: 40%;
+        height: 100%;
+        border-style: solid;
+        border-color: var(--primary4);
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        z-index: -1;
+    }
+    @include respond-to(768px) {
+        justify-content: space-between;
+        padding-left: 40px;
+        padding-right: 40px;
+        height: 6rem;
+    }
+    
+    .nav{
+        display: flex;
+        gap: 20px;
+
+        a{
+            font-size: 12px;
+            text-decoration: none;
+            transition: color 0.5s ease-in-out;
+
+            &.active{
+                color: var(--primary4);
+                transition: color 0.5s ease-in-out;
+            }
+
+            @include respond-to(768px) {
+                font-size: 18px;
+            }
+        }
+    }
+
+    .button{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        width: 140px;
+        height: 30px;
+        border-radius: 50px;
+        border-style: solid;
+        border-color: var(--primary4);
+
+        @include respond-to(768px) {
+            display: flex;
+            width: 160px;
+            height: 40px;
+            font-size: 14px;
+        }
+    }
+
+}
