@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import "./index.css";
 import Technologies from "./sections/technologies/Technologies";
 import Projects from "./sections/projects/Projects";
+import Contact from "./sections/contact/Contact";
 function App() {
 
   const [activeSection, setActiveSection] = useState('home');
@@ -35,7 +36,9 @@ function App() {
         <Home/>
         <Technologies/>
         <Projects/>
+        <Contact/>
       </main>
+      <footer style={{textAlign:"center", fontFamily:"arial"}}>&#174; Lázaro Bodevan - 2024</footer>
     </>
   );
 }

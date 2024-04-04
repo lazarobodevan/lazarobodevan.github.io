@@ -1,6 +1,6 @@
 import Project from '../../components/project/Project'
 import styles from './Projects.module.scss'
-import projects from './projects.json'
+import {projects} from './projectsData'
 
 export default function Projects(){
     return(
@@ -8,11 +8,8 @@ export default function Projects(){
             <h1>&lt;Projetos&gt;</h1>
             <div className={styles.projs}>
                 {
-                    projects.map(item =>{
-                        let name = item.name;
-                        let desc = item.desc;
-                        
-                        return Project({name, desc})
+                    projects.map(item =>{                        
+                        return <Project project={item}/>
                     })
                 }
             </div>

@@ -4,10 +4,14 @@ import me from './me.png'
 import {TypeAnimation} from 'react-type-animation';
 import Lottie from 'react-lottie';
 import * as animationData from './scroll-animation.json'
+import video from './coding.mp4'
 
 export default function Home(){
     return(
         <section id="home">
+            <video className={styles.video} id="video" autoplay="true" muted="true" loop="true">
+                <source src={video}/>
+            </video>
             <div className={styles.container}>
 
                 <div className={styles.first_child}>
@@ -52,7 +56,7 @@ export default function Home(){
                     </p>
                     <br/>
                     <p>Sou um 
-                        <span style={{color:"var(--primary4)"}}> desenvolvedor passivo</span>
+                        <span style={{color:"var(--primary4)"}}> desenvolvedor versátil</span>
                         , com uma stack bem diversa! Crio desde landing pages até aplicações 
                         completas (
                         <span style={{color:"var(--primary4)"}}>front</span>,

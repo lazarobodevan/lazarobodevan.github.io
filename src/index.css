@@ -14,6 +14,7 @@
 }
 
 body {
+  position: relative;
   font-family: "Space Mono", monospace;
   background-color: var(--primary1);
   box-sizing: border-box;
@@ -37,37 +38,17 @@ body::before{
 
 .content{
   padding-top: 1rem;
+  padding-bottom: 10rem;
   margin-left: 2em;
   margin-right: 2em;
 }
 
-.lines{
-    top: 5px;
-    left: 5px;
-    position: absolute;
-    width: 40%;
-    height: calc(300vh);
-    border-style: solid;
-    border-color: var(--primary4);
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    z-index: -110;
+@media screen and (min-width: 1920px){
+  .content{
+    margin-left: 220px;
+    margin-right: 220px;
+  }
 }
-
-.lines2::after{
-  content: "";
-    bottom: -220%;
-    right: 5px;
-    position: absolute;
-    width: 40%;
-    height: 260%;
-    border-style: solid;
-    border-color: var(--primary4);
-    border-left-color: transparent;
-    border-top-color: transparent;
-    z-index: -210;
-}
-
 
 
 code {

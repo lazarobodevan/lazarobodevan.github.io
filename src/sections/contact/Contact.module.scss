@@ -1,0 +1,69 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    margin-top: 6rem;
+
+    h1{
+        color: white;
+    }
+
+    .wrapper{
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+
+        .contact{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            opacity: .6;
+            transition: opacity .5s cubic-bezier(0.165, 0.84, 0.44, 1);
+            text-decoration: none;
+            &:hover{
+                opacity: 1;
+                filter: brightness(1000);
+            }
+
+            img{
+                width: 40px;
+                height: auto;
+            }
+
+        }
+    }
+
+    .email{
+        margin-top: 20px;
+        padding: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        opacity: .6;
+        cursor: pointer;
+        margin-bottom: 20px;
+
+        background-color: var(--primary2);
+        opacity: 1;
+        box-shadow: rgba(255, 255, 255, 0.25) 0px 50px 100px -20px, rgba(8, 255, 41, 0.3) 0px 30px 30px -30px, rgba(255, 255, 255, 0.35) 0px -2px 6px 0px inset;
+    
+
+        img{
+            width: 40px;
+            height: auto;
+            opacity: 1;
+        }
+    }
+
+}
