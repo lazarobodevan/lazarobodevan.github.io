@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.238fc8a1.css",
-    "main.js": "/static/js/main.f5f5f367.js",
+    "main.js": "/static/js/main.e062062e.js",
     "static/js/453.ace21015.chunk.js": "/static/js/453.ace21015.chunk.js",
     "static/media/coding.mp4": "/static/media/coding.4619979a1137c251c489.mp4",
+    "static/media/Planty.mp4": "/static/media/Planty.b3103d471ff22fd261a8.mp4",
+    "static/media/Billy.mp4": "/static/media/Billy.2bff78d887b2515feffa.mp4",
     "static/media/CookBook.mp4": "/static/media/CookBook.17b87d268713f0908e3b.mp4",
     "static/media/GreenCart.mp4": "/static/media/GreenCart.a631e22a3af34f524290.mp4",
     "static/media/Mabills.mp4": "/static/media/Mabills.5c1a1786cc55e3705bce.mp4",
@@ -27,11 +29,11 @@
     "static/media/flutter.svg": "/static/media/flutter.048226813aa67d3b9c69de4b27f7c1fa.svg",
     "static/media/noise.svg": "/static/media/noise.81450c2cc21e7fc6ba7f.svg",
     "main.238fc8a1.css.map": "/static/css/main.238fc8a1.css.map",
-    "main.f5f5f367.js.map": "/static/js/main.f5f5f367.js.map",
+    "main.e062062e.js.map": "/static/js/main.e062062e.js.map",
     "453.ace21015.chunk.js.map": "/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.238fc8a1.css",
-    "static/js/main.f5f5f367.js"
+    "static/js/main.e062062e.js"
   ]
 }
