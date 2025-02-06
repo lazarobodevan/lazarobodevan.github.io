@@ -17,9 +17,11 @@ export default function ProjectModal({project, isVisible, onclose}){
                         X
                     </div>
                 </div>
-                <video className={styles.video} controls>
-                    <source src={project.video}/>
-                </video>
+                {
+                   project.video != null && <video className={styles.video} controls>
+                        <source src={project.video}/>
+                    </video>
+                }
                 <div className={styles.description}>
                     <h3>Descrição</h3>
                     <p className={styles.text}>{project.description}</p>
@@ -37,14 +39,19 @@ export default function ProjectModal({project, isVisible, onclose}){
                 <div className={styles.links}>
                     <h3>Links úteis</h3>
                     <div className={styles.wrapper}>
-                        <a href={project.github} target='_blank'>
-                            <img src={githubIcon}/>
-                            <p>Github</p>
-                        </a>
-                        <a href={project.linkedin} target='_blank'>
-                            <img src={linkedinIcon}/>
-                            <p>Linkedin</p>
-                        </a>
+                        {
+                            project.github != null && <a href={project.github} target='_blank'>
+                                <img src={githubIcon}/>
+                                <p>Github</p>
+                            
+                            </a>
+                        }
+                        {
+                            project.linkedin != null && <a href={project.linkedin} target='_blank'>
+                                <img src={linkedinIcon}/>
+                                <p>Linkedin</p>
+                            </a>
+                        }
                     </div>
                 </div>
                 <div>
