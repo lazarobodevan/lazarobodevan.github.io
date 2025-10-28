@@ -17,14 +17,14 @@ export function SkillsSection() {
       icon: <Monitor className="h-8 w-8" />,
       title: "Frontend",
       description: "Interfaces modernas e responsivas que proporcionam excelente UX",
-      skills: ["React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript"],
+      skills: ["React", "TypeScript", "Tailwind CSS", "HTML5", "CSS3", "JavaScript", "Material UI", "Shadcn.UI"],
       color: "bg-blue-500/10 text-blue-600"
     },
     {
       icon: <Server className="h-8 w-8" />,
       title: "Backend",
       description: "APIs robustas e arquiteturas escaláveis para suportar aplicações complexas",
-      skills: ["C#/ASP.NET", "Node.js", "Java", "Express", "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ"],
+      skills: ["C#/ASP.NET 6+", "Node.js", "Java", "Express", "PostgreSQL", "MongoDB", "Redis", "Kafka", "RabbitMQ", "Yarp", "MassTransit", "DDD", "Clean Arch", "CQRS"],
       color: "bg-green-500/10 text-green-600"
     },
     {

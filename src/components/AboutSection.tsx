@@ -88,7 +88,7 @@ export function AboutSection() {
                     Minha Jornada
                   </h3>
                   <p className="text-muted-foreground mb-4">
-                    Formado em Ciência da Computação aos 23
+                    Formado em Ciência da Computação aos 22
                     anos, descobri cedo minha paixão por
                     desenvolvimento de software. O que começou
                     como curiosidade se transformou em uma

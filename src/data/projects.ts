@@ -13,6 +13,19 @@ export const projects = [
         "type": "fullstack"
     },
     {
+        "id": 9,
+        "name": "Treinosz 💪",
+        "briefing": "Sistema voltado para academias de bairro, visando substituir fichas de treino em papel e promover maior vínculo entre aluno e academia.",
+        "description": "A aplicação conta com cadastro de academias parceiras, e essas cuidam do gerenciamento do seu módulo. A academia cadastra seus alunos, suas fichas de treino e faz acompanhamento da evolução de cada aluno e pagamento de mensalidades. Criado a partir da minha vivência com academia de cidade pequena.",
+        "status": "Em desenvolvimento",
+        "technologies":["React.Js", "Shadcn.UI", "Typescript", "ASP.NET 8", "PostgreSQL", "xUnit", "gRPC", "Microservices", "Docker", "Yarp", "RabbitMQ", "MassTransit",  "DDD", "GithubActions", "EF Core"],
+        "date": "26/10/2025",
+        "video": null,
+        "github": "",
+        "linkedin":"",
+        "type": "fullstack"
+    },
+    {
         "id": 1,
         "name": "Trello simplificado 📝",
         "briefing": "Uma versão simplificada do Trello. É possível criar cards de tarefas e movê-los entre painéis de acordo com o seu status.",
